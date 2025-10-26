@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voodi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/mini-logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader__spinner"></div>
+    </div>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">Voodi</a>
+            <nav class="header__nav">
+                <a href="#partners" class="header__link">Partners</a>
+                <a href="#features" class="header__link">Features</a>
+                <a href="#services" class="header__link">Markets</a>
+                <a href="#insights" class="header__link">Insights</a>
+                <a href="#faq" class="header__link">FAQ</a>
+                <a href="#contact" class="header__link">Contact</a>
+            </nav>
+            <button class="header__burger burger-menu" aria-label="Open menu">
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="./img/background.gif" alt="Parallax background" class="hero__parallax-bg" id="parallax-bg">
+            <div class="container hero__container">
+                <h1>Built by traders<br>for traders.</h1>
+                <span class="hero__subtitle">Join over 1,000,000 traders in the world's leading firm. Trade in a fully simulated environment and earn up to 100% rewards.</span>
+                <div class="hero__buttons">
+                    <a href="#" class="form__button">Buy Challenge</a>
+                    <a href="#" class="form__button form__button--secondary">Join Competition</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners" class="partners reveal-on-scroll">
+            <div class="container">
+                <h2>Our Partners</h2>
+                <div class="partners__grid">
+                    <div class="partner__item">
+                        <img src="./img/freedom-icon.svg" alt="Partner Logo 1" class="partner__logo">
+                    </div>
+                    <div class="partner__item">
+                        <img src="./img/halyk-icon.svg" alt="Partner Logo 2" class="partner__logo">
+                    </div>
+                    <div class="partner__item">
+                        <img src="./img/cme-logo.svg" alt="Partner Logo 3" class="partner__logo">
+                    </div>
+                    <div class="partner__item">
+                        <img src="./img/kaspi-icon.svg" alt="Partner Logo 4" class="partner__logo">
+                    </div>
+                    <div class="partner__item">
+                        <img src="./img/google-logo.svg" alt="Partner Logo 5" class="partner__logo">
+                    </div>
+                    <div class="partner__item">
+                        <img src="./img/kase-logo.svg" alt="Partner Logo 6" class="partner__logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="product" class="product reveal-on-scroll">
+            <div class="container product__container">
+                <div class="product__image-wrapper">
+                    <img src="./img/ipad-photo.png" alt="Our Product Showcase">
+                </div>
+                <div class="product__content">
+                    <h2>Try Our Cutting-Edge Product</h2>
+                    <span class="product__description">
+                        Discover the features that will revolutionize your workflow. Join thousands of satisfied users
+                        today and take your productivity to the next level.
+                    </span>
+                    <a href="#contact" class="form__button">Start Your Free Trial</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="features" class="features reveal-on-scroll">
+            <div class="container">
+                 <h2>Platform Features</h2> 
+                 
+                 <div class="feature-block market-replay">
+                    <div class="feature-block__container">
+                        <div class="feature-block__content">
+                            <h3>Risk-free trading experience, multiple times faster</h3>
+                            <span class="feature-block__description">
+                                Market Replay is an emulator that recreates the past trading flow. Figuratively speaking,
+                                it's a "time machine" on the trading platform with Play, Pause, Stop buttons.
+                                Learn to trade, test strategies or robots without risking real capital. Key features:
+                            </span>
+                            <ul class="feature-block__list">
+                                <li>reproduces real tick flow and order book data, including cluster charts (Footprint) and non-standard timeframes;</li>
+                                <li>simultaneously replays a large number of instruments;</li>
+                                <li>works across all indicators and modules of the platform;</li>
+                                <li>adjustable playback speed up to x1000 to save time;</li>
+                                <li>manual or robot trading on demo with results in the statistics module;</li>
+                                <li>any timeframe from 10+ years is automatically supported;</li>
+                                <li>works on weekends.</li>
+                            </ul>
+                            <a href="#" class="form__button">Try For Free</a>
+                        </div>
+                        <div class="feature-block__image-wrapper">
+                            <img src="./img/Back-photo.png" alt="Market Replay Feature">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-block charts">
+                     <div class="feature-block__container">
+                        <div class="feature-block__content">
+                            <h3>Charts without limits</h3>
+                            <span class="feature-block__description">
+                                Look at the market through the eyes of a professional. Our platform offers limitless possibilities for building and customizing charts:
+                            </span>
+                            <ul class="feature-block__list">
+                                <li>400+ footprint configurations based on Volume, Delta, Trades, Bid x Ask data;</li>
+                                <li>14 timeframes (including unique ones) for displaying price movements without market noise: Reversal, OrderFlow, Volume, Delta, Tick, Time, Renko, 5 Renko types, and Range types;</li>
+                                <li>30+ drawing objects, including dynamic market profile, risk calculation, and position size;</li>
+                                <li>240+ indicators, including unique proprietary developments;</li>
+                                <li>direct trading from the chart, strategy backtesting setup;</li>
+                                <li>full customization for yourself – colors, gradients, transparency, fonts, etc.</li>
+                            </ul>
+                            <a href="#" class="form__button">Try For Free</a>
+                        </div>
+                        <div class="feature-block__image-wrapper">
+                            <img src="./img/Market-photo.png" alt="Charts Feature">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-block connections">
+                    <div class="feature-block__container">
+                        <div class="feature-block__content">
+                            <h3>Trade on any market</h3>
+                            <span class="feature-block__description">
+                                Stable and secure direct connections to global top exchanges and data providers:
+                            </span>
+                            <ul class="feature-block__list">
+                                <li>12 connectors for CME Group, Nasdaq, Eurex, and other US and EU markets;</li>
+                                <li>3 connectors for US stocks;</li>
+                                <li>6 MOEX connectors, including the primary Plaza 2 gateway and the popular QUIK terminal;</li>
+                                <li>7 CRYPTO connectors including Binance, Bybit, Bitget, etc.;</li>
+                                <li>2 connections to leading data providers: dxFeed and IQfeed;</li>
+                                <li>proprietary demo server for strategy testing without capital risk;</li>
+                                <li>proprietary online crypto data server.</li>
+                            </ul>
+                            <span class="feature-block__description">
+                                Direct connection guarantees maximum speed and stability. Your personal account information is fully secure – stored encrypted only on your PC.
+                                Connect an unlimited number of accounts simultaneously within one program.
+                            </span>
+                            <a href="#" class="form__button">Try For Free</a>
+                        </div>
+                        <div class="feature-block__image-wrapper">
+                            <img src="./img/Global-photo.png" alt="Connections Feature">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section id="stats" class="stats reveal-on-scroll">
+            <div class="container">
+                <h2>Our Achievements</h2>
+                <div class="stats__grid">
+                    <div class="stats__item">
+                        <span class="stats__number" data-target="10000000">0</span>
+                        <span class="stats__label">10M+ Satisfied Clients</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__number" data-target="500000">0</span>
+                        <span class="stats__label">500,000+ Clients</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__number" data-target="120000">0</span>
+                        <span class="stats__label">120k+ Positive Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="market-tabs reveal-on-scroll">
+            <div class="container">
+                <h2>Markets</h2>
+                <div class="tabs">
+                    <nav class="tabs__nav">
+                        <button class="tabs__button tabs__button--active" data-tab-name="forex">Forex</button>
+                        <button class="tabs__button" data-tab-name="etf">ETF</button>
+                        <button class="tabs__button" data-tab-name="futures">Futures</button>
+                    </nav>
+                    <div class="tabs__content">
+
+                        <div class="tabs__panel tabs__panel--active" id="forex">
+                            <ul class="market-list">
+                                <li class="market-list__header">
+                                    <span class="market-list__icon-header"></span>
+                                    <span class="market-list__instrument-header">Instrument</span>
+                                    <span class="market-list__price-header">Last Price</span>
+                                    <span class="market-list__change-header">Change</span>
+                                    <span class="market-list__change-pct-header">Change %</span>
+                                </li>
+                                <li class="market-list__item is-up">
+                                    <span class="market-list__icon"><img src="./icons/eur.svg" alt="EURUSD"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">EUR/USD</span>
+                                    <span class="market-list__price">1.0812</span>
+                                    <span class="market-list__change">+0.0012</span>
+                                    <span class="market-list__change-pct">+0.11%</span>
+                                </li>
+                                <li class="market-list__item is-down">
+                                    <span class="market-list__icon"><img src="./icons/gbp.svg" alt="GBPUSD"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">GBP/USD</span>
+                                    <span class="market-list__price">1.2540</span>
+                                    <span class="market-list__change">-0.0020</span>
+                                    <span class="market-list__change-pct">-0.15%</span>
+                                </li>
+                                <li class="market-list__item is-up">
+                                    <span class="market-list__icon"><img src="./icons/jpy.svg" alt="USDJPY"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">USD/JPY</span>
+                                    <span class="market-list__price">148.50</span>
+                                    <span class="market-list__change">+0.150</span>
+                                    <span class="market-list__change-pct">+0.10%</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tabs__panel" id="etf">
+                            <ul class="market-list">
+                                <li class="market-list__header">
+                                    <span class="market-list__icon-header"></span>
+                                    <span class="market-list__instrument-header">Instrument</span>
+                                    <span class="market-list__price-header">Last Price</span>
+                                    <span class="market-list__change-header">Change</span>
+                                    <span class="market-list__change-pct-header">Change %</span>
+                                </li>
+                                <li class="market-list__item is-up">
+                                    <span class="market-list__icon"><img src="./icons/nq100.svg" alt="NDX100"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">NDX100</span>
+                                    <span class="market-list__price">18150.20</span>
+                                    <span class="market-list__change">+150.20</span>
+                                    <span class="market-list__change-pct">+0.80%</span>
+                                </li>
+                                <li class="market-list__item is-down">
+                                    <span class="market-list__icon"><img src="./icons/spx500.svg" alt="SPX500"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">SPX500</span>
+                                    <span class="market-list__price">5100.50</span>
+                                    <span class="market-list__change">-20.50</span>
+                                    <span class="market-list__change-pct">-0.45%</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tabs__panel" id="futures">
+                            <ul class="market-list">
+                                <li class="market-list__header">
+                                    <span class="market-list__icon-header"></span>
+                                    <span class="market-list__instrument-header">Instrument</span>
+                                    <span class="market-list__price-header">Last Price</span>
+                                    <span class="market-list__change-header">Change</span>
+                                    <span class="market-list__change-pct-header">Change %</span>
+                                </li>
+                                <li class="market-list__item is-up">
+                                    <span class="market-list__icon"><img src="./icons/gold.svg" alt="Gold"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">GC (Gold)</span>
+                                    <span class="market-list__price">4107.4</span>
+                                    <span class="market-list__change">+10.50</span>
+                                    <span class="market-list__change-pct">+0.55%</span>
+                                </li>
+                                <li class="market-list__item is-down">
+                                    <span class="market-list__icon"><img src="./icons/ger40.svg" alt="WTI"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">DAX (Germany 40)</span>
+                                    <span class="market-list__price">24322</span>
+                                    <span class="market-list__change">-210</span>
+                                    <span class="market-list__change-pct">-9.50%</span>
+                                </li>
+                                <li class="market-list__item is-up">
+                                    <span class="market-list__icon"><img src="./icons/nq100.svg" alt="NQ"
+                                            class="market-list__icon-img"></span>
+                                    <span class="market-list__instrument">NQ (NASDAQ)</span>
+                                    <span class="market-list__price">18240.75</span>
+                                    <span class="market-list__change">+140.75</span>
+                                    <span class="market-list__change-pct">+0.78%</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="insights" class="insights reveal-on-scroll">
+            <div class="container">
+                <span class="insights__pre-title">MARKET INSIGHTS</span>
+                <h2>Smart trading starts with good intelligence</h2>
+
+                <span class="insights__sub-title">Economic Research</span>
+                <div class="insights__grid insights__grid--research">
+                    <article class="insight-card">
+                        <span class="insight-card__meta">2 min read</span>
+                        <span class="insight-card__title">Mexican Equities Offer the Possibility of
+                            Diversification</span>
+                        <span class="insight-card__description">As U.S. economic expansion vastly outpaces growth in
+                            Mexico, do Mexican equities...</span>
+                        <div class="insight-card__footer">
+                            <span class="insight-card__date">03 SEP 2025</span>
+                            <span class="insight-card__author">By Erik Norland</span>
+                        </div>
+                    </article>
+                    <article class="insight-card">
+                        <span class="insight-card__meta">8 min read</span>
+                        <span class="insight-card__title">CVOL Skew Ratio: Can Options Offer Useful Insights on
+                            Market...</span>
+                        <span class="insight-card__description">CME Group Volatility Index (CVOL) can offer clues to
+                            which way a specific market is...</span>
+                        <div class="insight-card__footer">
+                            <span class="insight-card__date">14 AUG 2025</span>
+                            <span class="insight-card__author">By Mark Shore</span>
+                        </div>
+                    </article>
+                    <article class="insight-card">
+                        <span class="insight-card__meta">3 min read</span>
+                        <span class="insight-card__title">How FX, Equities Trade Economic Data Sets</span>
+                        <span class="insight-card__description">Our analysis of how investors in FX, Equity futures and
+                            options trade economic data sets.</span>
+                        <div class="insight-card__footer">
+                            <span class="insight-card__date">05 AUG 2025</span>
+                            <span class="insight-card__author">By Erik Norland</span>
+                        </div>
+                    </article>
+                    <article class="insight-card">
+                        <span class="insight-card__meta">2 min watch</span>
+                        <span class="insight-card__title">Japan's Weak Yen Helps and Hurts</span>
+                        <span class="insight-card__description">The yen has lost about 50% of its value against the U.S.
+                            dollar in the past 13 years, helping to...</span>
+                        <div class="insight-card__footer">
+                            <span class="insight-card__date">30 JUL 2025</span>
+                            <span class="insight-card__author">By Erik Norland</span>
+                        </div>
+                    </article>
+                </div>
+
+                <span class="insights__sub-title">News</span>
+                <div class="insights__grid insights__grid--news">
+                    <article class="news-item">
+                        <span class="news-item__title">CME Group and FTSE Russell Extend Index Derivatives...</span>
+                        <span class="news-item__date">15 OCT 2025</span>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-item__title">CME Group extends partnership with FTSE Russell</span>
+                        <span class="news-item__date">15 OCT 2025</span>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-item__title">CME Group Expands into the Middle East with Dubai...</span>
+                        <span class="news-item__date">14 OCT 2025</span>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-item__title">CME Group Announces First Trades of Options on Solana...</span>
+                        <span class="news-item__date">14 OCT 2025</span>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-item__title">Mexican Equity Futures See Record Trading On Mode as I</span>
+                        <span class="news-item__date">14 OCT 2025</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq reveal-on-scroll">
+            <div class="container">
+                <h2>FAQ (Accordion)</h2>
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            What is a proprietary trading firm (prop firm) and how does it work?
+                        </button>
+                        <div class="accordion__content">
+                            <span class="accordion__text">A proprietary trading firm provides traders with access to the
+                                company’s capital to trade financial markets. Instead of using your own money, you trade
+                                with the firm’s funds. If you generate profits, you receive a share of those profits —
+                                typically 80–90% — while the company covers all trading losses within defined risk
+                                limits. Your main goal is to demonstrate consistency, discipline, and
+                                profitability.</span>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            What makes your prop firm different from others?
+                        </button>
+                        <div class="accordion__content">
+                            <span class="accordion__text">We focus on fairness, transparency, and trader growth. Our
+                                rules are clear, our support team is active, and payouts are fast. We don’t limit your
+                                trading style — whether you’re a scalper, swing trader, or algo developer — as long as
+                                you respect the risk parameters.</span>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            Can I trade from anywhere in the world?
+                        </button>
+                        <div class="accordion__content">
+                            <span class="accordion__text">Yes. Our prop firm is fully online, and traders from almost
+                                all countries are welcome to participate. You just need a stable internet connection and
+                                access to our trading platform.</span>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            What financial instruments can I trade?
+                        </button>
+                        <div class="accordion__content">
+                            <span class="accordion__text">You can trade a wide range of instruments depending on your
+                                account type:
+                                Futures (E-mini S&P 500, NASDAQ, Crude Oil, Gold, etc.)
+                                Forex pairs
+                                Cryptocurrencies
+                                Indices and Commodities
+                                We provide multiple markets so traders can choose what fits their strategy best.</span>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            What is the evaluation process to become a funded trader?
+                        </button>
+                        <div class="accordion__content">
+                            <span class="accordion__text">To access company capital, you must first complete a trading
+                                challenge (evaluation phase). During this stage, you need to reach a profit target
+                                without exceeding daily or overall loss limits. Once you pass, you’ll receive a funded
+                                account and start trading with real company funds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact reveal-on-scroll">
+            <div class="container">
+                <h2 class="contact__main-title">Stay Connected</h2>
+
+                <div class="contact__grid">
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <img src="./icons/Frame 3.svg" alt="Community Icon" />
+                        </div>
+                        <span class="contact-card__pre-title">Our Community</span>
+                        <span class="contact-card__title">Do not skip any beat.</span>
+                        <span class="contact-card__description">The Ultimate Trading Community. Join our Discord server
+                            to get the latest updates, news and more.</span>
+                        <a href="#" class="form__button">Open Discord</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <img src="./icons/Frame 4.svg" alt="Support Icon" />
+                        </div>
+                        <span class="contact-card__pre-title">Customer Support</span>
+                        <span class="contact-card__title">24/7 Customer Support</span>
+                        <span class="contact-card__description">We provide customer support around the clock 24/7 in
+                            multiple languages for our traders around the world.</span>
+                        <div class="contact-card__buttons">
+                            <a href="#" class="form__button form__button--secondary">Talk to our support</a>
+                            <a href="#faq" class="form__button">Open Trading Rules</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <img src="./icons/Frame 5.svg" alt="Newsletter Icon" />
+                        </div>
+                        <span class="contact-card__pre-title">Newsletter</span>
+                        <span class="contact-card__title">Join our Newsletter</span>
+                        <span class="contact-card__description">Stay updated with our newsletter!</span>
+                        <form class="contact__form" id="newsletter-form">
+                            <div class="form__group">
+                                <input type="email" id="newsletter-email" class="form__field"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <button type="submit" class="form__button">Subscribe</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer reveal-on-scroll">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <span class="footer__title">COMPANY</span>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">Corporate Citizenship</a></li>
+                        <li><a href="#" class="footer__link">Media Room</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Investor Relations</a></li>
+                        <li><a href="#" class="footer__link">Subscription Center</a></li>
+                        <li><a href="#" class="footer__link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <span class="footer__title">INTERNATIONAL</span>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Global Offices</a></li>
+                        <li><a href="#" class="footer__link">Partner Exchanges</a></li>
+                        <li><a href="#" class="footer__link">Latin America</a></li>
+                        <li><a href="#" class="footer__link">Europe, Middle East & Africa</a></li>
+                        <li><a href="#" class="footer__link">Asia-Pacific</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <span class="footer__title">MARKET REGULATION</span>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Overview</a></li>
+                        <li><a href="#" class="footer__link">Rulebooks</a></li>
+                        <li><a href="#" class="footer__link">Regulatory Guidance</a></li>
+                        <li><a href="#" class="footer__link">Rule Filings</a></li>
+                        <li><a href="#" class="footer__link">Regulatory Outreach</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <span class="footer__title">OUR EXCHANGES</span>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">CME</a></li>
+                        <li><a href="#" class="footer__link">CBOT</a></li>
+                        <li><a href="#" class="footer__link">NYMEX</a></li>
+                        <li><a href="#" class="footer__link">COMEX</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__socials">
+                    <a href="#" class="social-icon">
+                        <img src="./icons/yt-icon.png" alt="Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./icons/Frame 4.png" alt="Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./icons/Frame 5.png" alt="Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./icons/Frame 6.png" alt="Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./icons/Frame 7.png" alt="Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./icons/Frame 8.png" alt="Icon">
+                    </a>
+                </div>
+                <div class="footer__copyright">
+                    <p>© 2025 Voodi. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal__overlay" data-close="true"></div>
+        <div class="modal__window">
+            <button class="modal__close" data-close="true">&times;</button>
+            <span class="modal__title">Subscribed!</span>
+            <span class="modal__text">Thank you! You have been added to our newsletter.</span>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
